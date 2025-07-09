@@ -28,8 +28,14 @@
   font-size: 1rem;
   font-weight: 900;
   font-family:
-    DejaVuSansM Nerd Font,
+    JetBrainsMonoNerdFont,
+    Font Awesome,
+    Roboto,
+    Helvetica,
+    Arial,
     sans-serif;
+
+
   background-clip: border-box;
 }
 
