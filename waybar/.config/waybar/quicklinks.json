@@ -1,12 +1,12 @@
 {
   "custom/quicklink1": {
     "format": "󰈹",
-    "on-click": "zen-browser",
-    "tooltip-format": "Zen-Browser"
+    "on-click": "firefox",
+    "tooltip-format": "firefox"
   },
   "custom/quicklink2": {
     "format": "󰉋",
-    "on-click": "thunar",
+    "on-click": "dolphin",
     "tooltip-format": "Filemanager"
   },
   "custom/quicklink3": {
@@ -16,7 +16,7 @@
   },
   "custom/quicklink4": {
     "format": "",
-    "on-click": "alacritty --command nvim",
+    "on-click": "kitty nvim",
     "tooltip-format": "Neovim"
   },
   "group/quicklinks": {
