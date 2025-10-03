@@ -32,7 +32,7 @@
   "custom/appmenu": {
     "format": "󰣇",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings",
-    "on-click": "rofi -show drun -replace & sleep 0.2; hyprctl dispatch focuswindow '^(Rofi)'",
+    "on-click": "",
     "on-click-right": "~/.config/notscripter/scripts/keybindings.sh",
     "tooltip": false
   },
@@ -84,12 +84,19 @@
     "spacing": 8
   },
 
+// calendar
+"custom/calendar": {
+  "exec": "date '+%d/%m/%Y'",
+  "interval": 60,
+  "tooltip": true,
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+},
+
   // Clock
   "clock": {
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "󰥔 {0:%H:%M}",
-    "format-alt": "󰥔 {0:%H:%M}   {0:%d-%m-%Y}"
+    "format": "󰥔 {0:%H:%M}"
   },
 
   "hyprland/language": {
@@ -99,7 +106,7 @@
   // Network
   "network": {
     "format": "{ifname}",
-    "format-wifi": "  {signalStrength}%  {bandwidthDownBytes}  {bandwidthUpBytes} ",
+    "format-wifi": "  {signalStrength}%",
     "format-ethernet": "   {bandwidthDownBytes}  {bandwidthUpBytes} ",
     "format-disconnected": "Not connected",
     "tooltip-format": "  {ifname} via {gwaddri}",

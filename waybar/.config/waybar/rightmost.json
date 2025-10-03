@@ -1,0 +1,10 @@
+{
+  "group/rightmost": {
+    "orientation": "horizontal",
+    "modules": [
+	"custom/calendar",
+    	"custom/notification"
+    ]
+  }
+}
+

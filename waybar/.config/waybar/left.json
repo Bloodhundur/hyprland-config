@@ -1,0 +1,11 @@
+{
+  "group/left": {
+    "orientation": "horizontal",
+    "modules": [
+    "custom/appmenu",
+    "group/hardware"
+    ]
+  }
+}
+
+
