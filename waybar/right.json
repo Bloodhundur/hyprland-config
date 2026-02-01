@@ -1,0 +1,13 @@
+{
+  "group/right": {
+    "orientation": "horizontal",
+    "modules": [
+ "group/sound",
+    "network",
+    "battery",
+    "clock"
+    ]
+  }
+}
+
+

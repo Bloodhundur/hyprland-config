@@ -1,0 +1,40 @@
+{
+	"layer": "top", // Waybar at top layer
+	"position": "top", // Waybar position (top|bottom|left|right)
+	"height": 10, // Waybar height (to be removed for auto height)
+	"spacing": 8, // Gaps between modules (4px)
+	"margin-top": 4,
+	"margin-left": 8,
+	"margin-right": 8,
+	"mode": "dock",
+	"reload_style_on_change": true,
+	"include": [
+		"~/.config/waybar/rightmost.json",
+		"~/.config/waybar/left.json",
+		"~/.config/waybar/right.json",
+		"~/.config/waybar/modules.json",
+		"~/.config/waybar/hardware.json",
+		"~/.config/waybar/media.json",
+		"~/.config/waybar/sound.json"
+	],
+	"hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "warp-on-scroll": false,
+    "show-special": true,
+    "persistent-workspaces": {
+      "*": [ 1, 2, 3, 4 ]
+    }
+	},
+	"modules-left": [
+		"group/left"
+	],
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+	"modules-right": [
+		"group/right",
+		"group/rightmost"
+	]
+}
+
