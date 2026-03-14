@@ -1,6 +1,5 @@
 if [ -f $HOME/.config/hypr/settings/gamemode-enabled ]; then
 	rm -r ~/.config/hypr/settings/gamemode-enabled
-    hyprctl reload
     notify-send "Gamemode deactivated" "Animations and blur enabled"
 else
     hyprctl --batch "\

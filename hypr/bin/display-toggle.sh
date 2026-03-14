@@ -1,4 +1,3 @@
-
 # MONITOR="DP-3"
 # MONITORLAPTOP="eDP-1"
 
@@ -10,8 +9,8 @@ if [[ "$MONITOR" == "eDP-1" ]]; then
 	hyprctl keyword monitor "$MONITOR, preferred, auto, 1"
 
 elif [[ "$CURRENT_RES" == "5120x1440" ]]; then
- hyprctl keyword monitor "$MONITOR, 2560x1440@240.00, 0x0, 1, bitdepth, 10"
+	hyprctl keyword monitor "$MONITOR, 2560x1440@240.00, 0x0, 1, bitdepth, 10"
 else
-  hyprctl keyword monitor "$MONITOR, 5120x1440@240.00, 0x0, 1, bitdepth, 10"
+	hyprctl keyword monitor "$MONITOR, 5120x1440@240.00, 0x0, 1, bitdepth, 10"
 fi
 # $CURRENT_RES"
