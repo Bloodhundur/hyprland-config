@@ -3,7 +3,7 @@
 # a list of mandatory packages to install on a fresh system for config files to work
 
 # basic first lines of interfaces
-sudo pacman -Sy hyprlock waybar kitty swaync hyprpaper hyprlock rofi quickshell
+sudo pacman -Sy hyprlock kitty swaync hyprpaper hyprlock rofi quickshell
 
 # important audio and display stuff
 sudo pacman -Sy brightnessctl pipewire pipewire-alsa libpipewire libwireplumber pipewire-audio pipewire-jack pipewire-pulse pipewire-session-manager wireplumber pavucontrol
