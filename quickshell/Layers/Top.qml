@@ -8,7 +8,7 @@ Scope {
   Variants {
     model: Quickshell.screens
 
-    delegate: WlrLayershell {
+    delegate: PanelWindow {
       id: layerShell
 
       required property ShellScreen modelData
@@ -20,8 +20,6 @@ Scope {
       exclusionMode: ExclusionMode.Auto
       focusable: false
       implicitHeight: 30
-      layer: WlrLayer.Top
-      namespace: "rexies.quebar.top"
       screen: modelData
       surfaceFormat.opaque: false
 
@@ -59,6 +57,9 @@ Scope {
           }
         }
       }
+
+      property bool bruh: Theme.isVisible
+
     }
   }
 }

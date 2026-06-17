@@ -4,8 +4,11 @@ import QtQuick
 import "Layers" as Lay
 
 ShellRoot {
+  Lay.Cover{
+  }
   Lay.Top {
   }
+
 
   // inhibit the reload popup
   Connections {
